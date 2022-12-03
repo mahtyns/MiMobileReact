@@ -14,3 +14,15 @@
     height: auto;
     filter: opacity(.5);
 }
+
+.mainProductImage {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.galleryImageItem {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}

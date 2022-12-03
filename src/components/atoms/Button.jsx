@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles/buttonsStyling.css'
 
-
 const Button = ({content, handleClick}) => {
   return (
     <button 

@@ -6,3 +6,5 @@ export const ProductNumber = ({ cartItemsNumber }) => {
     <div className='cartTotalItems'>{cartItemsNumber}</div>
   )
 }
+
+export default ProductNumber
