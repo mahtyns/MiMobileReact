@@ -1,8 +1,11 @@
 import React from 'react'
+import './styles/pageStyles.css'
 
 const ProductDetailPage = () => {
   return (
-    <div>ProductDetailPage</div>
+    <div className='mainPageContainer'> 
+      ProductDetailPage
+    </div>
   )
 }
 

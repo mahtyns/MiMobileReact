@@ -1,8 +1,10 @@
 import React from 'react'
+import './styles/imageStyling.css'
 
 const Logo = () => {
+
   return (
-    <div>Logo</div>
+    <div className='logoStyles'>MiMobile</div>
   )
 }
 

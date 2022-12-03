@@ -1,8 +1,11 @@
 import React from "react";
+import Button from "./components/atoms/Button";
 
 function App() {
   return (
-    <div>Hello World</div>
+    <div>
+
+    </div>
   );
 }
 

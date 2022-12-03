@@ -1,0 +1,10 @@
+.buttonStyles {
+    width: 14em;
+    height: 3em;
+    border: none;
+    color: white;
+    background-color: rgb(3, 0, 185);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    cursor: pointer;
+}
