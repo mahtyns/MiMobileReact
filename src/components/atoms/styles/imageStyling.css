@@ -3,3 +3,14 @@
     font-size: 3rem;
     font-family: 'Zen Dots', cursive;
 }
+
+.cartIcon {
+    width: 2em;
+    height: auto;
+}
+
+.searchIcon {
+    width: 1.5em;
+    height: auto;
+    filter: opacity(.5);
+}

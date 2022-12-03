@@ -1,0 +1,25 @@
+.pageTitleStyles {
+    font-size: 2em;
+    color: rgb(3, 0, 185);
+}
+
+.detailSelector {
+    outline: none;
+    width: auto;
+    padding: .3em 2em .3em .3em;
+    text-transform: uppercase;
+    font-size: medium;
+    border-radius: .5em;
+}
+
+.cartTotalItems {
+    background-color: rgb(3, 0, 185);
+    color: white;
+    padding: .2em;
+    border-radius: 1em;
+    width: 1.8em;
+    height: 1.8em;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
