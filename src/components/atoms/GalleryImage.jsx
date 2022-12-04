@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles/imageStyling.css'
 
-const GalleryImage = () => {
+const GalleryImage = ({imageAlt, imageSrc}) => {
   return (
-      <img className='galleryImageItem' alt='product' src='https://images.pexels.com/photos/1194760/pexels-photo-1194760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
+      <img className='galleryImageItem' alt={imageAlt} src={imageSrc}/>
   )
 }
 

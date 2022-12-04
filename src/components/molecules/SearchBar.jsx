@@ -1,10 +1,15 @@
-//Buscador input y imagen
-
+//Buscador input e imagen
 import React from 'react'
+import SearchInput from '../atoms/SearchInput'
+import SearchIcon from '../atoms/SearchIcon'
+import './styles/moleculeStyles.css'
 
 const SearchBar = () => {
   return (
-    <div>SearchBar</div>
+    <div className='searchBarContainer'>
+      <SearchIcon />
+      <SearchInput />
+    </div>
   )
 }
 

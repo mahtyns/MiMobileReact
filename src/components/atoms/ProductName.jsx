@@ -1,9 +1,15 @@
 import React from 'react'
 import './styles/textStyling.css'
+import classNames from 'classnames'
 
-const ProductName = ({productName}) => {
+const ProductName = ({variant, productName}) => {
+
+  const productNameTypes = classNames('productNameStyles', {
+    'gallery': variant === 'gallery'
+  })
+
   return (
-      <div className='productNameStyles'>{productName}</div>
+      <div className={productNameTypes}>{productName}</div>
   )
 }
 

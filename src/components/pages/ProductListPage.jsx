@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './styles/pageStyles.css'
 
 const ProductListPage = () => {
   return (
-    <div>ProductListPage</div>
+    <div className='mainPageContainer'>ProductListPage</div>
   )
 }
 

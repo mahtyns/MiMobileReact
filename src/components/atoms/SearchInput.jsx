@@ -6,3 +6,5 @@ export const SearchInput = () => {
     <input className='searchInput' placeholder='Buscar...'/>
   )
 }
+
+export default SearchInput
