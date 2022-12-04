@@ -8,7 +8,7 @@ import './styles/moleculeStyles.css'
 const ShoppingCart = ({cartItemsNumber}) => {
   return (
     <div className='shoppingCartContainer'>
-      <ProductNumber cartItemsNumber={cartItemsNumber} />
+      {cartItemsNumber? <ProductNumber cartItemsNumber={cartItemsNumber} /> : null}
       <Cart />
     </div>
   )

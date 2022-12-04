@@ -4,12 +4,12 @@ import Logo from '../atoms/Logo'
 import Breadcrumbs from '../molecules/Breadcrumbs'
 import ShoppingCart from '../molecules/ShoppingCart'
 
-const Header = () => {
+const Header = ({ productsInCartNumber }) => {
   return (
     <div className='headerContainer'>
       <Logo />
       <Breadcrumbs />
-      <ShoppingCart />
+      <ShoppingCart cartItemsNumber={productsInCartNumber} />
     </div>
   )
 }

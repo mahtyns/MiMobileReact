@@ -1,11 +1,11 @@
 import React from 'react'
 import './styles/buttonsStyling.css'
 
-const Button = ({content, handleClick}) => {
+const Button = ({ content, addItemToCart }) => {
   return (
     <button 
         className='buttonStyles'
-        onClick={()=>handleClick}>
+      onClick={() => addItemToCart()}>
         {content}
     </button> 
   )

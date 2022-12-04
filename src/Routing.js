@@ -8,12 +8,13 @@ import ProductDetailView from './components/layouts/ProductDetailView';
 import MainPage from './components/layouts/MainPage';
 
 
-const Routing = () => {
+const Routing = ({productsInCartNumber, addItemToCart}) => {
 
   return (
     <div>
         <Router >
-        <Header />
+        <Header 
+        productsInCartNumber={productsInCartNumber}/>
         <Routes>
             <Route path='/' exact element={<MainPage />}/>
             <Route 
@@ -21,7 +22,10 @@ const Routing = () => {
             element={<ProductListView productList={products} />} />
             <Route 
             path={':product_id'}
-            element={<ProductDetailView productList={products}/>} />
+            element={<ProductDetailView 
+            productList={products}
+            addItemToCart={addItemToCart}
+            />} />
         </Routes>
         </Router>
     </div>

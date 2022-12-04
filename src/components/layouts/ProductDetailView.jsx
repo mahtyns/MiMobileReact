@@ -6,7 +6,7 @@ import { ProductDetailInfo } from '../organisms/ProductDetailInfo'
 import './styles/layoutStyles.css'
 import { useParams } from "react-router-dom";
 
-const ProductDetailView = ({productList}) => {
+const ProductDetailView = ({ productList, addItemToCart }) => {
 
   const {product_id} = useParams();
   // const selected_product = productList.find(product => product.product_id === product_id)
@@ -24,7 +24,9 @@ const ProductDetailView = ({productList}) => {
         <ProductDetailInfo 
         productMemory={selected_product.product_memory}
         productColor={selected_product.product_color}
-        productDescription={selected_product}/>
+        productDescription={selected_product}
+        addItemToCart={addItemToCart}
+        />
       </div>
       </div>
     </div>
