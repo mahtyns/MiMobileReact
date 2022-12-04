@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./components/layouts/Header";
+import Routing from "./Routing";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Routing />
     </div>
   );
 }
