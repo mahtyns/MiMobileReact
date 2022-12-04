@@ -2,8 +2,8 @@ import React from 'react'
 import './styles/layoutStyles.css';
 import PageTitle from '../atoms/PageTitle';
 import { Link } from "react-router-dom";
-import Button from '../atoms/Button'
 import MainPageImage from '../atoms/MainPageImage';
+import MainPageButton from '../atoms/MainPageButton';
 
 const MainPage = () => {
   return (
@@ -13,7 +13,7 @@ const MainPage = () => {
           </div>
           <MainPageImage />
           <Link to='/products'>
-          <Button content={'Shop Products'}/>
+          <MainPageButton content={'Shop Products'} />
           </Link>
     </div>
   )

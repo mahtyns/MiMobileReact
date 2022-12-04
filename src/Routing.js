@@ -8,7 +8,7 @@ import ProductDetailView from './components/layouts/ProductDetailView';
 import MainPage from './components/layouts/MainPage';
 
 
-const Routing = ({productsInCartNumber, addItemToCart}) => {
+const Routing = ({productsInCartNumber, addItemToCart, chooseMemory, chooseColor}) => {
 
   return (
     <div>
@@ -25,6 +25,8 @@ const Routing = ({productsInCartNumber, addItemToCart}) => {
             element={<ProductDetailView 
             productList={products}
             addItemToCart={addItemToCart}
+            chooseMemory={chooseMemory}
+            chooseColor={chooseColor}
             />} />
         </Routes>
         </Router>

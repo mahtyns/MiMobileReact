@@ -1,9 +1,9 @@
 import React from 'react'
 import './styles/textStyling.css'
 
-export const SearchInput = () => {
+export const SearchInput = ({ searchItemTyping }) => {
   return (
-    <input className='searchInput' placeholder='Buscar...'/>
+    <input className='searchInput' placeholder='Search...' onChange={searchItemTyping}/>
   )
 }
 

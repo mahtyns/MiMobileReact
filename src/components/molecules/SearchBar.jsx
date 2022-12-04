@@ -4,11 +4,11 @@ import SearchInput from '../atoms/SearchInput'
 import SearchIcon from '../atoms/SearchIcon'
 import './styles/moleculeStyles.css'
 
-const SearchBar = () => {
+const SearchBar = ({ searchItemTyping }) => {
   return (
     <div className='searchBarContainer'>
       <SearchIcon />
-      <SearchInput />
+      <SearchInput searchItemTyping={searchItemTyping} />
     </div>
   )
 }
