@@ -3,6 +3,7 @@ import './styles/layoutStyles.css';
 import PageTitle from '../atoms/PageTitle';
 import { Link } from "react-router-dom";
 import Button from '../atoms/Button'
+import MainPageImage from '../atoms/MainPageImage';
 
 const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ const MainPage = () => {
           <div className="titleBar">
             <PageTitle content={'Welcome to our shop'} />
           </div>
+          <MainPageImage />
           <Link to='/products'>
           <Button content={'Shop Products'}/>
           </Link>
