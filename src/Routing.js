@@ -5,7 +5,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import ProductListView from './components/layouts/ProductListView';
 import products from './data-prueba';
 import ProductDetailView from './components/layouts/ProductDetailView';
-import MainPage from './components/layouts/MainPage';
 
 
 const Routing = ({productsInCartNumber, addItemToCart, chooseMemory, chooseColor}) => {
@@ -16,10 +15,8 @@ const Routing = ({productsInCartNumber, addItemToCart, chooseMemory, chooseColor
         <Header 
         productsInCartNumber={productsInCartNumber}/>
         <Routes>
-            <Route path='/' exact element={<MainPage />}/>
-            <Route 
-            path='products' exact
-            element={<ProductListView productList={products} />} />
+            <Route path='/' exact element={<ProductListView productList={products} />}/>
+  
             <Route 
             path={'products/:product_id'}
             element={<ProductDetailView 

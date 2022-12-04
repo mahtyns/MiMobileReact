@@ -12,11 +12,14 @@ function App() {
   const addItemToCart = (addedItemId) => {
     let newItemInCart = {
       product_id: addedItemId, 
-      // memory_code: memoryCode, 
-      // color_code: colorCode
+      memory_code: memoryCode, 
+      color_code: colorCode
     }
     setProductsInCartNumber(productsInCartNumber + 1);
-    setProductsInCart([...productsInCart, newItemInCart])
+    setProductsInCart([...productsInCart, newItemInCart]);
+    setMemoryCode();
+    setColorCode();
+    console.log(productsInCart)
   }
 
   const chooseMemory = (e) => {

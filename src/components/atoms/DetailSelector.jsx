@@ -3,11 +3,15 @@ import './styles/textStyling.css'
 
 const DetailSelector = ({selectorName, selectorValues, selectedCode}) => {
 
-  const defaultValue = selectorValues[0];
-
   return (
-      <select className='detailSelector' name={selectorName} onChange={selectedCode}>
-        {selectorValues.map(selector => <option defaultValue={defaultValue} value={selector.code} key={selector.code}>{selector.value}</option>)}
+    <select className='detailSelector' name={selectorName} onChange={selectedCode} value={selectorValues[0].code} >
+        {selectorValues.map(selector => 
+        <option 
+        value={selector.code} 
+        key={selector.code}
+        >
+              {selector.value}
+        </option>)}
       </select>
   )
 }
