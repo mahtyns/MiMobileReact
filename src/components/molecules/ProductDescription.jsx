@@ -3,7 +3,7 @@ import SectionTitle from '../atoms/SectionTitle'
 import DescriptionText from '../atoms/DescriptionText'
 import './styles/moleculeStyles.css'
 
-const ProductDescription = () => {
+const ProductDescription = ({productDescription}) => {
   return (
     <div className='descriptionContainer'>
       <SectionTitle sectionTitle={'Product Description'}/>

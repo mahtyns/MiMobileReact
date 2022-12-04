@@ -4,13 +4,13 @@ import DetailSelector from '../atoms/DetailSelector'
 import Button from '../atoms/Button'
 import './styles/moleculeStyles.css'
 
-const ProductActions = () => {
+const ProductActions = ({productMemory, productColor}) => {
   return (
     <div className='productActionsContainer'>
       <SectionTitle sectionTitle={'Choose properties'}/>
       <div className='selectorContainer'>
-        <DetailSelector selectorName={'Memory'} selectorValues={null}/>
-        <DetailSelector selectorName={'Color'} selectorValues={null}/>
+        <DetailSelector selectorName={'Memory'} selectorValues={productMemory}/>
+        <DetailSelector selectorName={'Color'} selectorValues={productColor}/>
       </div>
       <div className="buttonContainer">
         <Button content={'Add to cart'} />

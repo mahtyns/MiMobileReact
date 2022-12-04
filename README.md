@@ -5,7 +5,7 @@
 ## Structure
 
 ## Dependencies
-
+ - classNames - gestión de estilos CSS en clase - [Link](https://www.npmjs.com/package/classnames)
 ## Resources
 - Icons - [Flaticon](https://www.flaticon.com)
 
