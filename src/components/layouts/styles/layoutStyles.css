@@ -1,0 +1,24 @@
+.productGalleryContainer {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.titleBar {
+    display: flex;
+    width: 90%;
+    padding: 1em;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productInfoContainer {
+    width: 90%;
+    padding: 1em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
