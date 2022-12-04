@@ -21,7 +21,7 @@ const Routing = ({productsInCartNumber, addItemToCart}) => {
             path='products' exact
             element={<ProductListView productList={products} />} />
             <Route 
-            path={':product_id'}
+            path={'products/:product_id'}
             element={<ProductDetailView 
             productList={products}
             addItemToCart={addItemToCart}
