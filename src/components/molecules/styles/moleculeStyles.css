@@ -61,3 +61,12 @@
     width: 100%;
     margin: 2em 0 0 0
 }
+
+.productDescriptionShort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 1em auto;
+}
