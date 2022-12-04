@@ -15,34 +15,34 @@ const products = [
         product_dimensions: '7.15 cm x 14.67 cm x 0.76 cm',
         product_memory: [
             {   
-                memory_code: 1,
-                memory_value: '128gb'
+                code: 1,
+                value: '128gb'
             },
             {   
-                memory_code: 2,
-                memory_value: '256gb'
+                code: 2,
+                value: '256gb'
             },
             {   
-                memory_code: 3,
-                memory_value: '512gb'
+                code: 3,
+                value: '512gb'
             },
         ],
         product_color: [
             {
-                color_code: 1,
-                color_value: 'white'
+                code: 1,
+                value: 'white'
             },
             {
-                color_code: 2,
-                color_value: 'black'
+                code: 2,
+                value: 'black'
             },
             {
-                color_code: 3,
-                color_value: 'rose'
+                code: 3,
+                value: 'rose'
             },
             {
-                color_code: 4,
-                color_value: 'red'
+                code: 4,
+                value: 'red'
             },
         ],
         product_img: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87283632/mobile_200_200_png'
@@ -63,22 +63,22 @@ const products = [
         product_dimensions: '7.61 cm x 16.41 cm x 0.81 cm',
         product_memory: [
             {   
-                memory_code: 1,
-                memory_value: '128gb'
+                code: 1,
+                value: '128gb'
             },
         ],
         product_color: [
             {
-                color_code: 1,
-                color_value: 'white'
+                code: 1,
+                value: 'white'
             },
             {
-                color_code: 2,
-                color_value: 'black'
+                code: 2,
+                value: 'black'
             },
             {
-                color_code: 3,
-                color_value: 'blue'
+                code: 3,
+                value: 'blue'
             },
 
         ],
@@ -100,30 +100,30 @@ const products = [
         product_dimensions: '7.68 cm x 16.51 cm x 0.88 cm',
         product_memory: [
             {   
-                memory_code: 1,
-                memory_value: '64gb'
+                code: 1,
+                value: '64gb'
             },
             {   
-                memory_code: 2,
-                memory_value: '128gb'
+                code: 2,
+                value: '128gb'
             },
         ],
         product_color: [
             {
-                color_code: 1,
-                color_value: 'white'
+                code: 1,
+                value: 'white'
             },
             {
-                color_code: 2,
-                color_value: 'black'
+                code: 2,
+                value: 'black'
             },
             {
-                color_code: 3,
-                color_value: 'rose'
+                code: 3,
+                value: 'rose'
             },
             {
-                color_code: 4,
-                color_value: 'red'
+                code: 4,
+                value: 'red'
             },
         ],
         product_img: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95198280/mobile_200_200_png'
@@ -144,30 +144,30 @@ const products = [
         product_dimensions: '7.47 cm x 15.95 cm x 0.81 cm',
         product_memory: [
             {   
-                memory_code: 1,
-                memory_value: '128gb'
+                code: 1,
+                value: '128gb'
             },
             {   
-                memory_code: 2,
-                memory_value: '256gb'
+                code: 2,
+                value: '256gb'
             },
         ],
         product_color: [
             {
-                color_code: 1,
-                color_value: 'light blue'
+                code: 1,
+                value: 'light blue'
             },
             {
-                color_code: 2,
-                color_value: 'black'
+                code: 2,
+                value: 'black'
             },
             {
-                color_code: 3,
-                color_value: 'orange'
+                code: 3,
+                value: 'orange'
             },
             {
-                color_code: 4,
-                color_value: 'white'
+                code: 4,
+                value: 'white'
             },
         ],
         product_img: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92324093/fee_786_587_png'
@@ -188,18 +188,18 @@ const products = [
         product_dimensions: '7.69 cm x 16.54 cm x 0.84 cm',
         product_memory: [
             {   
-                memory_code: 1,
-                memory_value: '128gb'
+                code: 1,
+                value: '128gb'
             },
         ],
         product_color: [
             {
-                color_code: 1,
-                color_value: 'blue'
+                code: 1,
+                value: 'blue'
             },
             {
-                color_code: 2,
-                color_value: 'black'
+                code: 2,
+                value: 'black'
             },
         ],
         product_img: 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96776858/fee_786_587_png'

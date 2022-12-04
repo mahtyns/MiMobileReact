@@ -64,3 +64,9 @@
 .textDescriptions.boldText {
     font-weight: 700;
 }
+
+.priceTextStyles {
+    font-size: 3em;
+    color: rgb(3, 0, 185);
+    margin: .5em 0 0 0
+}

@@ -7,19 +7,21 @@ import products from './data-prueba';
 import ProductDetailView from './components/layouts/ProductDetailView';
 import MainPage from './components/layouts/MainPage';
 
+
 const Routing = () => {
+
   return (
     <div>
         <Router >
         <Header />
         <Routes>
-            <Route path='/' element={<MainPage />}/>
+            <Route path='/' exact element={<MainPage />}/>
             <Route 
-            path='/products' 
+            path='products' exact
             element={<ProductListView productList={products} />} />
             <Route 
-            path={`/products1`}
-            element={<ProductDetailView />} />
+            path={':product_id'}
+            element={<ProductDetailView productList={products}/>} />
         </Routes>
         </Router>
     </div>

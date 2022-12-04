@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionTitle from '../atoms/SectionTitle'
 import DetailSelector from '../atoms/DetailSelector'
-import Button from '../atoms/Button'
 import './styles/moleculeStyles.css'
 
 const ProductActions = ({productMemory, productColor}) => {
@@ -11,9 +10,6 @@ const ProductActions = ({productMemory, productColor}) => {
       <div className='selectorContainer'>
         <DetailSelector selectorName={'Memory'} selectorValues={productMemory}/>
         <DetailSelector selectorName={'Color'} selectorValues={productColor}/>
-      </div>
-      <div className="buttonContainer">
-        <Button content={'Add to cart'} />
       </div>
     </div>
   )

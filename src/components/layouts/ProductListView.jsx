@@ -7,6 +7,7 @@ import ProductListGallery from '../organisms/ProductListGallery'
 import './styles/layoutStyles.css'
 
 const ProductListView = ({productList}) => {
+
   return (
     <div className='productGalleryContainer'>
       <div className="titleBar">
