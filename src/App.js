@@ -1,6 +1,9 @@
 import React from "react";
 import Routing from "./Routing";
 import { useState } from "react";
+// import { queryClient, QueryClientProvider, useQuery} from 'react-query'
+
+// const qClient = new queryClient();
 
 function App() {
 
@@ -8,6 +11,21 @@ function App() {
   const [productsInCart, setProductsInCart] = useState([])
   const [memoryCode, setMemoryCode] = useState()
   const [colorCode, setColorCode] = useState()
+
+  // const getProducts = async () => {
+  //     const res = await fetch('https://front-test-api.herokuapp.com/api/product');
+  //     return res.json();
+  // }
+
+  // const {data, status} = useQuery('products', getProducts);
+
+  // if(status === 'loading') {
+  //   return console.log('Loading');
+  // }
+
+  // if(status === 'error') {
+  //   return console.log('error')
+  // }
 
   const addItemToCart = (addedItemId) => {
     let newItemInCart = {

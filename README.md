@@ -8,6 +8,7 @@ Página de tienda online de móviles. Contiene la página principal - página de
  
 ## Dependencies
  - classNames - gestión de estilos CSS en clase - [Link](https://www.npmjs.com/package/classnames)
+ - React Router - navegación entre páginas - [Link](https://reactrouter.com/en/main)
 ## Resources
 - Icons - [Flaticon](https://www.flaticon.com)
 
