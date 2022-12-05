@@ -13,7 +13,7 @@ Página de tienda online de móviles. Contiene la página principal - página de
 - Icons - [Flaticon](https://www.flaticon.com)
 
 ## Scripts
- - start - iniciar la App en el modo developement
+ - start - iniciar la App en el modo developement en localhost:3000
  - build - entorno de producción
  - test 
 ## Process
